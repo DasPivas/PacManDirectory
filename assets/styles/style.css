@@ -24,6 +24,7 @@ a {
   text-decoration: none;
   color: inherit;
   }
+
 body {
   overflow-x: hidden;
   min-height: 100vh;
@@ -72,11 +73,13 @@ img {
 
   cursor: pointer;
   }
+
 @media (max-width: 768px) {
   .menu {
     justify-content: center;
     }
   }
+
 .menu__title {
   padding: 0 8px;
   }
@@ -124,9 +127,11 @@ img {
 .menu__link:last-child {
   margin-bottom: 0;
   }
+
 .menu__link:hover {
   background-color: #ddd;
   }
+
 .menu:hover .menu__dropbox {
   display: block;
   position: absolute;
@@ -165,9 +170,11 @@ img {
 .search-form__button:hover {
   background-color: #eee;
   }
+
 #article-list {
   min-height: 50vh;
   }
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -178,15 +185,18 @@ img {
     width: 768px;
     }
   }
+
 @media (max-width: 768px) {
   .container {
     width: 100%;
     padding: 0 8px;
     }
   }
+
 .row {
   margin: 0 -16px;
   }
+
 .col-12 {
   padding: 0 16px;
   }
@@ -196,20 +206,27 @@ img {
   display: flex;
   flex-wrap: wrap;
   }
+
 .article__img {
   width: 25%;
+  max-height: 300px;
+  object-fit: cover;
   }
+
 .article__info {
   width: 75%;
   padding-left: 16px;
   }
+
 .article__buttons {
   width: 100%;
   margin: 8px;
   display: flex;
   justify-content: center;
   }
-
+.article__source-link {
+  color: darkblue;
+  }
 
 .button {
   padding: 8px 16px;
@@ -222,7 +239,6 @@ img {
 .button:hover {
   background-color: #eeeeee;
   }
-
 
 .footer {
   position: absolute;
