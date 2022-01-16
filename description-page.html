@@ -3,13 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Страница описания</title>
+	<title>Справочник монстров</title>
 	<link rel="stylesheet" href="./assets/styles/style.css">
 	
 	<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
-<!--	<link rel="manifest" href="/assets/favicon/site.webmanifest">-->
+	<!--	<link rel="manifest" href="/assets/favicon/site.webmanifest">-->
 	<link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
 	<link rel="shortcut icon" href="/assets/favicon/favicon.ico">
 	<meta name="msapplication-TileColor" content="#da532c">
@@ -17,6 +17,62 @@
 	<meta name="theme-color" content="#ffffff">
 </head>
 <body>
+<header class="header">
+	<div class="header__logo">
+		<a href="./index.html" class="logo">
+			<img src="./assets/images/logo.svg" alt="PacMan Dictionary" class="logo__img">
+			<span class="logo__title">Справочника монстров Pacman</span>
+		</a>
+	</div>
+	<div class="header__menu">
+		<nav class="menu">
+			<div class="menu__title">
+				Статьи
+			</div>
+			<div class="menu__dropbox">
+				<div class="menu__dropbox--inner">
+					<a href="./description-page.html" class="menu__link">Описание главного монстра</a>
+					<a href="./description-page.html" class="menu__link">Описание главного монстра</a>
+					<a href="./description-page.html" class="menu__link">Описание главного монстра</a>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<div class="header__search">
+		<form action="" class="search-form">
+			<input type="text" class="search-form__input">
+			<button class="search-form__button" type="submit">Найти</button>
+		</form>
+	</div>
+</header>
+<section id="article-list">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<article class="article">
+					<img src="./assets/images/Mspacman.png" alt="Пакмен" class="article__img">
+					<div class="article__info">
+						<h2 class="article__title">Pac-Man</h2>
+						
+						<p class="article__description">Pac-Man (с англ «Па́кман») — аркадная видеоигра, разработанная японской
+							компанией Namco и вышедшая в 1980 году. Задача игрока — управляя Пакманом, съесть все точки в лабиринте,
+							избегая встречи с привидениями, которые гоняются за героем. С повышением уровня игры изменяется только её
+							сложность, архитектура лабиринта остаётся идентичной. Всего в игре 256 уровней, последний из которых невозможно завершить из-за ошибки переполнения.</p>
+						<p class="article__description">В конце 1970-х из-за успеха игры Space Invaders рынок видеоигр сосредоточился на создании аркадных шутемапов и привлекал к себе сугубо мужскую аудиторию. Сотрудник Namco Тору Иватани хотел сделать игру, которая понравилась бы всем, в особенности девушкам, и в качестве основной темы своей работы выбрал еду. В Японии созданная игра получила название Puck-Man (яп. パックマン паккуман), но при локализации в США компания Midway изменила название на Pac-Man, считая, что при оригинальном названии дети могли бы закрасить середину буквы «P», превратив её в «F», и сделать слово обсценным.</p>
+					</div>
+					
+					
+				</article>
+			</div>
+		</div>
+	</div>
+</section>
 
+
+<footer class="footer">
+	<div class="footer__copyright">
+		&#169; Прядун Михаил 2022
+	</div>
+</footer>
 </body>
 </html>
